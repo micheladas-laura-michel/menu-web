@@ -148,6 +148,9 @@ body{
   text-align:left;
   color: var(--text);
 }
+.item *{
+  color: inherit;
+}
 .item:active{ transform: scale(.99); }
 
 .item__left{

@@ -161,15 +161,16 @@ async function loadMenu() {
   return await res.json();
 }
 
-function maybeShowAd() {
-  const seen = localStorage.getItem(AD_KEY);
-  if (seen === "1") return;
-
+function showAdEveryVisit() {
   openModal(adModal);
 
-  const closeAndRemember = () => {
-    localStorage.setItem(AD_KEY, "1");
-    closeModal(adModal);
+  const closeAd = () => closeModal(adModal);
+
+  adContinue.addEventListener("click", closeAd, { once: true });
+
+  adModal.addEventListener("click", (e) => {
+    if (e.target?.dataset?.close === "true") closeAd();
+  }, { once: true });
   };
 
   adContinue.addEventListener("click", closeAndRemember, { once: true });
@@ -194,7 +195,7 @@ function maybeShowAd() {
   try {
     menuData = await loadMenu();
     renderMenu(menuData, "");
-    maybeShowAd();
+    showAdEveryVisit();
   } catch (err) {
     menuRoot.innerHTML = `<div class="section"><div class="section__head">
       <h2 class="section__title">Error</h2><div class="section__hint"></div></div>
