@@ -3,7 +3,7 @@
   --panel: #101826;
   --panel2:#0f1722;
   --text: #eaf0ff;
-  --muted:#a9b5cc;
+  --muted:#d1dbef;
   --accent:#f5c84b;
   --border: rgba(255,255,255,.10);
   --shadow: 0 14px 40px rgba(0,0,0,.35);
@@ -46,7 +46,8 @@ body{
   justify-content:space-between;
   align-items:center;
   padding: 12px 14px;
-  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  background: rgba(11,15,20,.88);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }
