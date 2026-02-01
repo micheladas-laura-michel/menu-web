@@ -1,0 +1,127 @@
+{
+  "currency": "MXN",
+  "sections": [
+    {
+      "title": "Micheladas",
+      "hint": "Micheladas preparadas",
+      "items": [
+        { "name": "Clásica", "price": 0, "desc": "Escarchado de casa, adentro limón y sal.", "img": "assets/img/items/michelada-clasica.jpg" },
+        { "name": "Miche con Clamato", "price": 0, "desc": "Escarchado de casa, limón, sal y clamato.", "img": "assets/img/items/miche-clamato.jpg" },
+        { "name": "Cubana", "price": 0, "desc": "Escarchado de casa, limón, sal, salsas y clamato.", "img": "assets/img/items/michelada-cubana.jpg" }
+      ]
+    },
+    {
+      "title": "Miches de sabor",
+      "hint": "Sabores",
+      "items": [
+        { "name": "Sandía", "price": 0, "desc": "", "img": "assets/img/items/sabor-sandia.jpg" },
+        { "name": "Mango", "price": 0, "desc": "", "img": "assets/img/items/sabor-mango.jpg" },
+        { "name": "Tamarindo", "price": 0, "desc": "", "img": "assets/img/items/sabor-tamarindo.jpg" },
+        { "name": "Cereza", "price": 0, "desc": "", "img": "assets/img/items/sabor-cereza.jpg" },
+        { "name": "Piña-Coco", "price": 0, "desc": "", "img": "assets/img/items/sabor-pina-coco.jpg" },
+        { "name": "BOOST", "price": 0, "desc": "", "img": "assets/img/items/sabor-boost.jpg" }
+      ]
+    },
+    {
+      "title": "Tragos",
+      "hint": "Coctelería",
+      "items": [
+        { "name": "Azulito (Vodka o Bacardi)", "price": 0, "desc": "", "img": "assets/img/items/tragos-azulito.jpg" },
+        { "name": "Bacardi Quemado", "price": 0, "desc": "", "img": "assets/img/items/tragos-bacardi-quemado.jpg" },
+        { "name": "Pitufo (Whisky)", "price": 0, "desc": "", "img": "assets/img/items/tragos-pitufo.jpg" },
+        { "name": "Paloma", "price": 0, "desc": "", "img": "assets/img/items/tragos-paloma.jpg" },
+        { "name": "Whisky", "price": 0, "desc": "", "img": "assets/img/items/tragos-whisky.jpg" },
+        { "name": "Torres", "price": 0, "desc": "", "img": "assets/img/items/tragos-torres.jpg" },
+        { "name": "Bacardi Mango", "price": 0, "desc": "", "img": "assets/img/items/tragos-bacardi-mango.jpg" },
+        { "name": "Bomba", "price": 0, "desc": "", "img": "assets/img/items/tragos-bomba.jpg" }
+      ]
+    },
+    {
+      "title": "Bebidas refrescantes",
+      "hint": "",
+      "items": [
+        { "name": "Skyy Preparando", "price": 0, "desc": "", "img": "assets/img/items/refrescante-skyy.jpg" },
+        { "name": "Caribe Preparada", "price": 0, "desc": "", "img": "assets/img/items/refrescante-caribe.jpg" },
+        { "name": "Hulk", "price": 0, "desc": "", "img": "assets/img/items/refrescante-hulk.jpg" }
+      ]
+    },
+    {
+      "title": "Refrescos",
+      "hint": "",
+      "items": [
+        { "name": "Sangría", "price": 0, "desc": "", "img": "assets/img/items/refresco-sangria.jpg" },
+        { "name": "Squirt", "price": 0, "desc": "", "img": "assets/img/items/refresco-squirt.jpg" },
+        { "name": "Agua Mineral", "price": 0, "desc": "", "img": "assets/img/items/refresco-agua-mineral.jpg" },
+        { "name": "Naranjada", "price": 0, "desc": "", "img": "assets/img/items/refresco-naranjada.jpg" },
+        { "name": "Coca-Cola", "price": 0, "desc": "", "img": "assets/img/items/refresco-coca-cola.jpg" },
+        { "name": "Sprite", "price": 0, "desc": "", "img": "assets/img/items/refresco-sprite.jpg" }
+      ]
+    },
+    {
+      "title": "Mojitos",
+      "hint": "",
+      "items": [
+        { "name": "Maracuyá", "price": 0, "desc": "", "img": "assets/img/items/mojito-maracuya.jpg" },
+        { "name": "Frutos Rojos", "price": 0, "desc": "", "img": "assets/img/items/mojito-frutos-rojos.jpg" }
+      ]
+    },
+    {
+      "title": "Sin alcohol",
+      "hint": "",
+      "items": [
+        { "name": "Boing", "price": 0, "desc": "", "img": "assets/img/items/sin-boing.jpg" },
+        { "name": "Preparando", "price": 0, "desc": "", "img": "assets/img/items/sin-preparando.jpg" },
+        { "name": "Azulito", "price": 0, "desc": "", "img": "assets/img/items/sin-azulito.jpg" }
+      ]
+    },
+    {
+      "title": "Comida y snacks",
+      "hint": "",
+      "items": [
+        { "name": "Tacos - Bisteck", "price": 0, "desc": "", "img": "assets/img/items/tacos-bisteck.jpg" },
+        { "name": "Tacos - Longaniza", "price": 0, "desc": "", "img": "assets/img/items/tacos-longaniza.jpg" },
+        { "name": "Tacos - Campechanos", "price": 0, "desc": "", "img": "assets/img/items/tacos-campechanos.jpg" },
+        { "name": "Dorilocos", "price": 0, "desc": "", "img": "assets/img/items/dorilocos.jpg" },
+        { "name": "Papas Locas", "price": 0, "desc": "", "img": "assets/img/items/papas-locas.jpg" },
+        { "name": "Cacahuates", "price": 0, "desc": "", "img": "assets/img/items/cacahuates.jpg" },
+        { "name": "Alitas (BBQ / Búfalo / Mango Habanero)", "price": 0, "desc": "", "img": "assets/img/items/alitas.jpg" },
+        { "name": "Nuggets", "price": 0, "desc": "", "img": "assets/img/items/nuggets.jpg" }
+      ]
+    },
+    {
+      "title": "Cervezas",
+      "hint": "",
+      "items": [
+        { "name": "Corona", "price": 0, "desc": "", "img": "assets/img/items/cerveza-corona.jpg" },
+        { "name": "Victoria", "price": 0, "desc": "", "img": "assets/img/items/cerveza-victoria.jpg" },
+        { "name": "León", "price": 0, "desc": "", "img": "assets/img/items/cerveza-leon.jpg" },
+        { "name": "Pacífico", "price": 0, "desc": "", "img": "assets/img/items/cerveza-pacifico.jpg" },
+        { "name": "Modelo Especial", "price": 0, "desc": "", "img": "assets/img/items/cerveza-modelo-especial.jpg" },
+        { "name": "Negra Modelo", "price": 0, "desc": "", "img": "assets/img/items/cerveza-negra-modelo.jpg" },
+        { "name": "Modelo Malta", "price": 0, "desc": "", "img": "assets/img/items/cerveza-modelo-malta.jpg" },
+        { "name": "XX Lager", "price": 0, "desc": "", "img": "assets/img/items/cerveza-xx-lager.jpg" },
+        { "name": "Miller", "price": 0, "desc": "", "img": "assets/img/items/cerveza-miller.jpg" },
+        { "name": "Indio", "price": 0, "desc": "", "img": "assets/img/items/cerveza-indio.jpg" },
+        { "name": "Heineken", "price": 0, "desc": "", "img": "assets/img/items/cerveza-heineken.jpg" }
+      ]
+    },
+    {
+      "title": "Cerillos",
+      "hint": "",
+      "items": [
+        { "name": "Modelo Especial", "price": 0, "desc": "", "img": "assets/img/items/cerillo-modelo-especial.jpg" },
+        { "name": "Victoria", "price": 0, "desc": "", "img": "assets/img/items/cerillo-victoria.jpg" },
+        { "name": "Pacífico", "price": 0, "desc": "", "img": "assets/img/items/cerillo-pacifico.jpg" },
+        { "name": "Viqui Chamoy", "price": 0, "desc": "", "img": "assets/img/items/cerillo-viqui-chamoy.jpg" }
+      ]
+    },
+    {
+      "title": "Cervezas sin alcohol",
+      "hint": "",
+      "items": [
+        { "name": "Modelo Dorada (Baja en alcohol)", "price": 0, "desc": "", "img": "assets/img/items/sin-alcohol-modelo-dorada.jpg" },
+        { "name": "Heineken Cero", "price": 0, "desc": "", "img": "assets/img/items/sin-alcohol-heineken-cero.jpg" }
+      ]
+    }
+  ]
+}
