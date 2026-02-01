@@ -166,18 +166,12 @@ function showAdEveryVisit() {
 
   const closeAd = () => closeModal(adModal);
 
+  // Botón continuar
   adContinue.addEventListener("click", closeAd, { once: true });
 
+  // Cerrar por backdrop / X
   adModal.addEventListener("click", (e) => {
     if (e.target?.dataset?.close === "true") closeAd();
-  }, { once: true });
-  };
-
-  adContinue.addEventListener("click", closeAndRemember, { once: true });
-
-  // Si lo cierra por backdrop o X, también guardamos
-  adModal.addEventListener("click", (e) => {
-    if (e.target?.dataset?.close === "true") closeAndRemember();
   }, { once: true });
 }
 
