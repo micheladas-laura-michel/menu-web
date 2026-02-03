@@ -201,4 +201,15 @@ function showAdEveryVisit() {
     if (!menuData) return;
     renderMenu(menuData, e.target.value);
   });
+  // Ejemplo: cambiar o ocultar la notificación
+const badge = document.getElementById('waBadge');
+
+// Cambiar número dinámicamente
+badge.textContent = 1;
+
+// Ocultar si no hay notificaciones
+if (badge.textContent === "0") {
+    badge.style.display = "none";
+}
+
 })();
