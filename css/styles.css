@@ -71,13 +71,18 @@ body{
   background: var(--panel);
   color: var(--text);
   border-radius: 999px;
-  padding: 10px 12px;
+  padding: 1px 1px;
   display:flex;
   align-items:center;
   box-shadow: var(--shadow);
   cursor:pointer;
-
 }
+
+.icon {
+    font-size: 30px;   /* prueba 24–36px */
+    line-height: 1;    /* evita que se descentre */
+}
+
 .searchbar input{
   width:100%;
   padding: 12px 14px;
@@ -293,12 +298,12 @@ body{
 /* Botón flotante */
 .whatsapp-float {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     bottom: 20px;
     right: 20px;
     background-color: #25D366;
-    border-radius: 50%;
+    border-radius: 999%;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     display: flex;
     align-items: center;
