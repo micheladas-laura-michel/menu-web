@@ -74,14 +74,9 @@ body{
   padding: 10px 12px;
   display:flex;
   align-items:center;
-  gap:8px;
   box-shadow: var(--shadow);
   cursor:pointer;
-}
-.icon-text{ font-size: 13px; }
 
-.searchbar{
-  margin: 14px 0 18px;
 }
 .searchbar input{
   width:100%;

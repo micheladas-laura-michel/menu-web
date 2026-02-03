@@ -36,7 +36,7 @@ function formatPrice(value, currency = "MXN") {
 function setTheme(theme) {
   document.documentElement.setAttribute("data-theme", theme);
   localStorage.setItem(THEME_KEY, theme);
-  themeIcon.textContent = theme === "light" ? "🌙" : "☀️";
+  themeIcon.textContent = theme === "light" ? "◐" : "◐";
 }
 
 function initTheme() {
